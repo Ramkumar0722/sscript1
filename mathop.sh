@@ -7,3 +7,5 @@ sub=$((a-b))
 echo "Subtraction is" $sub
 mul=$((a*b))
 echo "multiplication is" $mul
+div=$((a/b))
+echo "division is" $div

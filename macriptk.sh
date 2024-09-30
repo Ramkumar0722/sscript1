@@ -9,6 +9,9 @@ echo "5% tax"
 elif [ $a -gt 40000 ];
 then
 echo "10% tax"
-else 
+elif [ $a -eq 20000 ];
+then
+echo "2% tax"
+else
 echo "not eligible"
 fi 
